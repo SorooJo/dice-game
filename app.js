@@ -55,7 +55,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
     scores[activePlayer]= scores[activePlayer] + roundScore;
     document.getElementById('score-'+activePlayer).textContent = scores[activePlayer];
      // ug toglogch hojson esehiig shalgah 
-    if(scores[activePlayer] >= 10){
+    if(scores[activePlayer] >= 100){
         //togloomiig duussan tolowt oruulah 
         isNewGame = false;
         document.getElementById('name-'+activePlayer).textContent='You winner !!!';
